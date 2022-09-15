@@ -10,8 +10,6 @@ from starlette.responses import RedirectResponse
 
 from classification import prediction, read_imagefile
 
-val= []
-
 app =FastAPI(title='Image Classifier')
 
 @app.post("/classify/image")
